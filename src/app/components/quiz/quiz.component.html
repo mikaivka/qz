@@ -1,0 +1,98 @@
+<!-- quiz.component.html -->
+
+<div class="loader" *ngIf="loading">
+  <div class="ldrbx">
+    <div class="media"><img src="assets/images/r_logo.png" alt=""></div>
+    <div class="ldrl">
+      <div class="spinner-border text-primary" role="status">
+        <span class="sr-only"></span>
+      </div>
+      Loading ...
+    </div>
+  </div>
+</div>
+<!-- {{currentQuestionIndex}} -->
+
+<div class="container" *ngIf="!loading">
+  <div class="quizsctn">
+    <div class="timerbx" *ngIf="timer>0 && currentQuestionIndex<questions.length">
+      <div class="tttl">
+        <h3>Time Remaining</h3>
+      </div>
+      <div class="">
+        <div class="sell">{{ formatTime(timer) }}</div>
+        <!-- <div class="sell">11</div> -->
+      </div>
+    </div>
+<!-- {{currentQuestion |json}} -->
+    <div class="quzbx">
+      <div class="quizstrt" *ngIf="!initialPage">
+        <a href="javascript:void(0)" (click)="startTimer()">Start Quiz</a>
+      </div>
+
+      <div *ngIf="initialPage">
+
+        <div *ngIf="timer>0 && currentQuestionIndex<questions.length">
+          <div class="quz_qstn">
+            <div class="qz_no">Q{{currentQuestionIndex+1}}</div>
+            <h3 class="nmttl">{{ currentQuestion?.en }}</h3>
+            <div class="smltm">{{currentQuestionIndex+1}}/{{questions.length}}</div>
+          </div>
+
+          <!-- <div class="timer">
+            Time Left: {{ formatTime(timer) }}
+          </div> -->
+          <!-- {{selectedOption}} -->
+          <div class="quz_ans">
+            <ul class="qzlst">
+              <li class="active" [ngClass]="{'active_options': selectedOption===item.answerText_En}" style="cursor: pointer;"
+                *ngFor="let item of currentQuestion.anslist; let i = index" (click)="selectOption(item.answerText_En,i,item)">
+                {{ item.answerText_En }}
+                <!-- <span *ngIf="loading && option === selectedOption" class="loading-indicator"></span> -->
+              </li>
+            </ul>
+          </div>
+
+          <!-- <div class="form-button btm_fxd">
+            <button class="btn" style="background: #e4a691 !important; margin-top: 10px;" type="button" *ngIf="currentQuestionIndex>0" (click)="previousQuestion()">Previous</button>
+            <button class="btn" type="button" (click)="nextQuestion()">
+            <span *ngIf="currentQuestionIndex+1!=questions.length">Next</span><span *ngIf="currentQuestionIndex+1==questions.length">Finish</span>
+            </button>
+          </div> -->
+
+          <div class="form-button btm_fxd" style="display: flex; justify-content: space-between; margin: 20px;">
+            <button class="btn" style="background: #e4a691 !important;" type="button" *ngIf="currentQuestionIndex>0"
+              (click)="previousQuestion()">Previous</button>
+            <button class="btn" style="background: white !important;border: none;" type="button"></button>
+
+            <button class="btn" [disabled]="currentQuestionIndex>=questions.length" type="button" (click)="nextQuestion()" >
+              <span *ngIf="currentQuestionIndex+1!=questions.length">Next</span><span
+                *ngIf="currentQuestionIndex+1==questions.length">Finish</span>
+            </button>
+          </div>
+
+        </div>
+
+        <div *ngIf="timer==0 || currentQuestionIndex>=questions.length">
+          <p style="font-size:
+           1.2rem; margin: 2rem auto; text-align: center;">
+            Scored:
+            <span style="font-weight:
+           bolder;">{{totalScore}}</span>
+
+          </p>
+          <div class="susbx" style="background: url(../assets/images/payment_bg.png);">
+            <p><img src="assets/images/cng.png" alt=""></p>
+            <h2>Congratulations</h2>
+            <h4>you have completed the quiz!</h4>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>

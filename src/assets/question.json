@@ -1,0 +1,332 @@
+[
+    {
+        "id": 1,
+        "question": "What’s the diameter of a basketball hoop in inches?",
+        "options": [
+            "16 Inches",
+            "20 inches",
+            "18 inches",
+            "12 inches"
+        ],
+        "correctOptionIndex": 2
+    },
+    {
+        "id": 2,
+        "question": "How many dimples does an average golf ball have?",
+        "options": [
+            "489",
+            "129",
+            "201",
+            "336"
+        ],
+        "correctOptionIndex": 3
+    },
+    {
+        "id": 3,
+        "question": "How many times did Ross Geller get divorced on Friends?",
+        "options": [
+            "2",
+            "4",
+            "5",
+            "3"
+        ],
+        "correctOptionIndex": 3
+    },
+    {
+        "id": 4,
+        "question": "Who does Michael Scott hit with company property on company property in The Office?",
+        "options": [
+            "Kevin",
+            "Meredith",
+            "Jim",
+            "Dwight"
+        ],
+        "correctOptionIndex": 1
+    },
+    {
+        "id": 5,
+        "question": "Which tech entrepreneur named his son X Æ A-12?",
+        "options": [
+            "Elon Musk",
+            "Jeff Bezos",
+            "Jack Dorsey",
+            "Linda Yaccarino"
+        ],
+        "correctOptionIndex": 0
+    },
+    {
+        "id": 6,
+        "question": "Which country has the world’s longest coastline?",
+        "options": [
+            "India",
+            "Canada",
+            "USA",
+            "South Africa"
+        ],
+        "correctOptionIndex": 1
+    },
+    {
+        "id": 7,
+        "question": "What is the name of the smallest country in the world?",
+        "options": [
+            "Nauru",
+            "Monaco",
+            "Vatican City",
+            "Tuvalu"
+        ],
+        "correctOptionIndex": 2
+    },
+    {
+        "id": 8,
+        "question": "Which Teams played World Cup 2022 Soccer Final?",
+        "options": [
+            "Argentina vs Brazil",
+            "Argentina vs France",
+            "Argentina vs Croatia",
+            "Argentina vs Canada"
+        ],
+        "correctOptionIndex": 1
+    },
+    {
+        "id": 9,
+        "question": "Who was the longest reigning monarch in British history?",
+        "options": [
+            "Queen Victoria",
+            "Queen Elizabeth II",
+            "King Philip II",
+            "King Philip I"
+        ],
+        "correctOptionIndex": 1
+    },
+    {
+        "id": 10,
+        "question": "Who won the Academy Award for Best Picture in 2023?",
+        "options": [
+            "Everything Everywhere All at Once",
+            "Top Gun Maverick",
+            "Avatar Way of Water",
+            "The Fabelmans"
+        ],
+        "correctOptionIndex": 0
+    },
+    {
+        "id": 11,
+        "question": "Who is the 1st Indian Cricketer to hit 6 sixes in an over in a 1st class match?",
+        "options": [
+            "Sachin Tendulkar",
+            "Yuvraj Singh",
+            "Virendar Sehwag",
+            "Ravi Shastri"
+        ],
+        "correctOptionIndex": 3
+    },
+    {
+        "id": 12,
+        "question": "Which country has appeared in three football World Cup finals, but never won the competition",
+        "options": [
+            "Netherlands",
+            "Belgium",
+            "Mexico",
+            "Denmark"
+        ],
+        "correctOptionIndex": 0
+    },
+    {
+        "id": 13,
+        "question": "Which is the rarest blood type in humans?",
+        "options": [
+            "AB+ve",
+            "A+",
+            "AB-ve",
+            "O+"
+        ],
+        "correctOptionIndex": 2
+    },
+    {
+        "id": 14,
+        "question": "Which is the only body part that is fully grown from birth?",
+        "options": [
+            "Heart",
+            "Brain",
+            "Ear",
+            "Eye ball"
+        ],
+        "correctOptionIndex": 3
+    },
+    {
+        "id": 15,
+        "question": "Who is the only Indian male boxer to win a medal at the Olympics?",
+        "options": [
+            "Manoj Kumar",
+            "Mary Kom",
+            "Vikas Krishan Yadav",
+            "Vijender Singh"
+        ],
+        "correctOptionIndex": 3
+    },
+    {
+        "id": 16,
+        "question": "In what year was the internet opened to the public?",
+        "options": [
+            "1995",
+            "1996",
+            "1994",
+            "1993"
+        ],
+        "correctOptionIndex": 3
+    },
+    {
+        "id": 17,
+        "question": "Which Indian athlete is known as the \"Flying Sikh\" for his exceptional speed in athletics?",
+        "options": [
+            "PT Usha",
+            "Manoj Tiwari",
+            "Neeraj Chopra",
+            "Milkha Singh"
+        ],
+        "correctOptionIndex": 3
+    },
+    {
+        "id": 18,
+        "question": "What is the length of a cricket pitch?",
+        "options": [
+            "30 yards",
+            "22 yards",
+            "20 yards",
+            "25 yards"
+        ],
+        "correctOptionIndex": 1
+    },
+    {
+        "id": 19,
+        "question": "Which city are the Olympics being held in 2024?",
+        "options": [
+            "China",
+            "Australia",
+            "Paris",
+            "Japan"
+        ],
+        "correctOptionIndex": 2
+    },
+    {
+        "id": 20,
+        "question": "Which country is hosting the T20 World Cup in 2024?",
+        "options": [
+            "Canada",
+            "USA",
+            "South Africa",
+            "England"
+        ],
+        "correctOptionIndex": 1
+    },
+    {
+        "id": 21,
+        "question": "When was the foundation stone laid for Ram Mandir?",
+        "options": [
+            "5th Aug 2020",
+            "9th Sept 2020",
+            "6th July 2022",
+            "8th June 2020"
+        ],
+        "correctOptionIndex": 0
+    },
+    {
+        "id": 22,
+        "question": "Most followed athlete on Instagram",
+        "options": [
+            "Virat Kohli",
+            "Christiano Ronaldo",
+            "Dwayne Johnson",
+            "Lionel Messi"
+        ],
+        "correctOptionIndex": 1
+    },
+    {
+        "id": 23,
+        "question": "Who got the Arjuna award from the Indian cricket team this year?",
+        "options": [
+            "Rohit Sharma",
+            "Jaspreet Bumrah",
+            "Mohd. Shami",
+            "Hardik Pandya"
+        ],
+        "correctOptionIndex": 2
+    },
+    {
+        "id": 24,
+        "question": "With which country has India announced to setup a net-zero innovation virtual center?",
+        "options": [
+            "Germany",
+            "Sri Lanka",
+            "France",
+            "UK"
+        ],
+        "correctOptionIndex": 3
+    },
+    {
+        "id": 25,
+        "question": "When was the Indian national anthem first sung?",
+        "options": [
+            "15th Aug 1947",
+            "26th Jan 1950",
+            "30th Jan 1932",
+            "27th Dec 1911"
+        ],
+        "correctOptionIndex": 3
+    },
+    {
+        "id": 26,
+        "question": "Who was the first emperor of the Maurya Empire?",
+        "options": [
+            "Chandragupta Maurya",
+            "Ashoka the Great",
+            "Samudragupta",
+            "Harshavardhan"
+        ],
+        "correctOptionIndex": 0
+    },
+    {
+        "id": 27,
+        "question": "What is India’s Golden Quadrilateral?",
+        "options": [
+            "A historic monument",
+            "A super national highway",
+            "A Buddhist monastery",
+            "Himalayan Range"
+        ],
+        "correctOptionIndex": 1
+    },
+    {
+        "id": 28,
+        "question": "Which Indian badminton player became the first Indian to win an Olympic medal in the sport?",
+        "options": [
+            "Kidambi Srikanth",
+            "PV Sindhu",
+            "Saina Nehwal",
+            "Prakash Padukone"
+        ],
+        "correctOptionIndex": 2
+    },
+    {
+        "id": 29,
+        "question": "Who was the first batsman to score a double century in ODI?",
+        "options": [
+            "Sachin Tendulkar",
+            "Virendar Sehwag",
+            "Chris Gayle",
+            "AB de Villiers"
+        ],
+        "correctOptionIndex": 0
+    },
+    {
+        "id": 30,
+        "question": "Who is the youngest Indian woman to climb Mount Everest?",
+        "options": [
+            "Arunima Sinha",
+            "Malavath Poorna",
+            "Santosh Yadav",
+            "Bachendri Pal"
+        ],
+        "correctOptionIndex": 1
+    }
+]

@@ -1,0 +1,412 @@
+[
+        {
+            "totalRecords": 30,
+            "id": 2,
+            "ty": 1,
+            "en": "What’s the diameter of a basketball hoop in inches?",
+            "hn": "What’s the diameter of a basketball hoop in inches?",
+            "url": null,
+            "dur": 1500,
+            "cans": 7,
+            "ans": null,
+            "anslist": [
+                {
+                    "id": 5,
+                    "answerText_En": "16 Inches",
+                    "answerText_Hn": "16 Inches",
+                    "isCorrectAns": false,
+                    "sortOrder": 1
+                },
+                {
+                    "id": 6,
+                    "answerText_En": "20 inches",
+                    "answerText_Hn": "20 inches",
+                    "isCorrectAns": false,
+                    "sortOrder": 2
+                },
+                {
+                    "id": 7,
+                    "answerText_En": "18 inches",
+                    "answerText_Hn": "18 inches",
+                    "isCorrectAns": true,
+                    "sortOrder": 3
+                },
+                {
+                    "id": 8,
+                    "answerText_En": "12 inches",
+                    "answerText_Hn": "12 inches",
+                    "isCorrectAns": false,
+                    "sortOrder": 4
+                }
+            ]
+        },
+        {
+            "totalRecords": 30,
+            "id": 3,
+            "ty": 1,
+            "en": "How many dimples does an average golf ball have?",
+            "hn": "How many dimples does an average golf ball have?",
+            "url": null,
+            "dur": 1500,
+            "cans": 12,
+            "ans": null,
+            "anslist": [
+                {
+                    "id": 9,
+                    "answerText_En": "489",
+                    "answerText_Hn": "489",
+                    "isCorrectAns": false,
+                    "sortOrder": 1
+                },
+                {
+                    "id": 10,
+                    "answerText_En": "129",
+                    "answerText_Hn": "129",
+                    "isCorrectAns": false,
+                    "sortOrder": 2
+                },
+                {
+                    "id": 11,
+                    "answerText_En": "201",
+                    "answerText_Hn": "201",
+                    "isCorrectAns": false,
+                    "sortOrder": 3
+                },
+                {
+                    "id": 12,
+                    "answerText_En": "336",
+                    "answerText_Hn": "336",
+                    "isCorrectAns": true,
+                    "sortOrder": 4
+                }
+            ]
+        },
+        {
+            "totalRecords": 30,
+            "id": 4,
+            "ty": 1,
+            "en": "How many times did Ross Geller get divorced on Friends?",
+            "hn": "How many times did Ross Geller get divorced on Friends?",
+            "url": null,
+            "dur": 1500,
+            "cans": 16,
+            "ans": null,
+            "anslist": [
+                {
+                    "id": 13,
+                    "answerText_En": "2",
+                    "answerText_Hn": "2",
+                    "isCorrectAns": false,
+                    "sortOrder": 1
+                },
+                {
+                    "id": 14,
+                    "answerText_En": "4",
+                    "answerText_Hn": "4",
+                    "isCorrectAns": false,
+                    "sortOrder": 2
+                },
+                {
+                    "id": 15,
+                    "answerText_En": "5",
+                    "answerText_Hn": "5",
+                    "isCorrectAns": false,
+                    "sortOrder": 3
+                },
+                {
+                    "id": 16,
+                    "answerText_En": "3",
+                    "answerText_Hn": "3",
+                    "isCorrectAns": true,
+                    "sortOrder": 4
+                }
+            ]
+        },
+        {
+            "totalRecords": 30,
+            "id": 5,
+            "ty": 1,
+            "en": "Who does Michael Scott hit with company property on company property in The Office?",
+            "hn": "Who does Michael Scott hit with company property on company property in The Office?",
+            "url": null,
+            "dur": 1500,
+            "cans": 18,
+            "ans": null,
+            "anslist": [
+                {
+                    "id": 17,
+                    "answerText_En": "Kevin",
+                    "answerText_Hn": "Kevin",
+                    "isCorrectAns": false,
+                    "sortOrder": 1
+                },
+                {
+                    "id": 18,
+                    "answerText_En": "Meredith",
+                    "answerText_Hn": "Meredith",
+                    "isCorrectAns": true,
+                    "sortOrder": 2
+                },
+                {
+                    "id": 19,
+                    "answerText_En": "Jim",
+                    "answerText_Hn": "Jim",
+                    "isCorrectAns": false,
+                    "sortOrder": 3
+                },
+                {
+                    "id": 20,
+                    "answerText_En": "Dwight",
+                    "answerText_Hn": "Dwight",
+                    "isCorrectAns": false,
+                    "sortOrder": 4
+                }
+            ]
+        },
+        {
+            "totalRecords": 30,
+            "id": 6,
+            "ty": 1,
+            "en": "Which tech entrepreneur named his son X Æ A-12?",
+            "hn": "Which tech entrepreneur named his son X Æ A-12?",
+            "url": null,
+            "dur": 1500,
+            "cans": 21,
+            "ans": null,
+            "anslist": [
+                {
+                    "id": 21,
+                    "answerText_En": "Elon Musk",
+                    "answerText_Hn": "Elon Musk",
+                    "isCorrectAns": true,
+                    "sortOrder": 1
+                },
+                {
+                    "id": 22,
+                    "answerText_En": "Jeff Bezos",
+                    "answerText_Hn": "Jeff Bezos",
+                    "isCorrectAns": false,
+                    "sortOrder": 2
+                },
+                {
+                    "id": 23,
+                    "answerText_En": "Jack Dorsey",
+                    "answerText_Hn": "Jack Dorsey",
+                    "isCorrectAns": false,
+                    "sortOrder": 3
+                },
+                {
+                    "id": 24,
+                    "answerText_En": "Linda Yaccarino",
+                    "answerText_Hn": "Linda Yaccarino",
+                    "isCorrectAns": false,
+                    "sortOrder": 4
+                }
+            ]
+        },
+        {
+            "totalRecords": 30,
+            "id": 7,
+            "ty": 1,
+            "en": "Which country has the world\\’s longest coastline? ",
+            "hn": "Which country has the world\\’s longest coastline? ",
+            "url": null,
+            "dur": 1500,
+            "cans": 26,
+            "ans": null,
+            "anslist": [
+                {
+                    "id": 25,
+                    "answerText_En": "India",
+                    "answerText_Hn": "India",
+                    "isCorrectAns": false,
+                    "sortOrder": 1
+                },
+                {
+                    "id": 26,
+                    "answerText_En": "Canada",
+                    "answerText_Hn": "Canada",
+                    "isCorrectAns": true,
+                    "sortOrder": 2
+                },
+                {
+                    "id": 27,
+                    "answerText_En": "USA",
+                    "answerText_Hn": "USA",
+                    "isCorrectAns": false,
+                    "sortOrder": 3
+                },
+                {
+                    "id": 28,
+                    "answerText_En": "South Africa",
+                    "answerText_Hn": "South Africa",
+                    "isCorrectAns": false,
+                    "sortOrder": 4
+                }
+            ]
+        },
+        {
+            "totalRecords": 30,
+            "id": 8,
+            "ty": 1,
+            "en": "What is the name of the smallest country in the world? ",
+            "hn": "What is the name of the smallest country in the world? ",
+            "url": null,
+            "dur": 1500,
+            "cans": 31,
+            "ans": null,
+            "anslist": [
+                {
+                    "id": 29,
+                    "answerText_En": "Nauru",
+                    "answerText_Hn": "Nauru",
+                    "isCorrectAns": false,
+                    "sortOrder": 1
+                },
+                {
+                    "id": 30,
+                    "answerText_En": "Monaco",
+                    "answerText_Hn": "Monaco",
+                    "isCorrectAns": false,
+                    "sortOrder": 2
+                },
+                {
+                    "id": 31,
+                    "answerText_En": "Vatican City",
+                    "answerText_Hn": "Vatican City",
+                    "isCorrectAns": true,
+                    "sortOrder": 3
+                },
+                {
+                    "id": 32,
+                    "answerText_En": "Tuvalu",
+                    "answerText_Hn": "Tuvalu",
+                    "isCorrectAns": false,
+                    "sortOrder": 4
+                }
+            ]
+        },
+        {
+            "totalRecords": 30,
+            "id": 9,
+            "ty": 1,
+            "en": "Which Teams played World Cup 2022 Soccer Final?",
+            "hn": "Which Teams played World Cup 2022 Soccer Final?",
+            "url": null,
+            "dur": 1500,
+            "cans": 34,
+            "ans": null,
+            "anslist": [
+                {
+                    "id": 33,
+                    "answerText_En": "Argentina vs Brazil",
+                    "answerText_Hn": "Argentina vs Brazil",
+                    "isCorrectAns": false,
+                    "sortOrder": 1
+                },
+                {
+                    "id": 34,
+                    "answerText_En": "Argentina vs France",
+                    "answerText_Hn": "Argentina vs France",
+                    "isCorrectAns": true,
+                    "sortOrder": 2
+                },
+                {
+                    "id": 35,
+                    "answerText_En": "Argentina vs Croatia",
+                    "answerText_Hn": "Argentina vs Croatia",
+                    "isCorrectAns": false,
+                    "sortOrder": 3
+                },
+                {
+                    "id": 36,
+                    "answerText_En": "Argentina vs France",
+                    "answerText_Hn": "Argentina vs France",
+                    "isCorrectAns": false,
+                    "sortOrder": 4
+                }
+            ]
+        },
+        {
+            "totalRecords": 30,
+            "id": 10,
+            "ty": 1,
+            "en": "Who was the longest raining monarch in British history?",
+            "hn": "Who was the longest raining monarch in British history?",
+            "url": null,
+            "dur": 1500,
+            "cans": 38,
+            "ans": null,
+            "anslist": [
+                {
+                    "id": 37,
+                    "answerText_En": "Queen Victoria",
+                    "answerText_Hn": "Queen Victoria",
+                    "isCorrectAns": false,
+                    "sortOrder": 1
+                },
+                {
+                    "id": 38,
+                    "answerText_En": "Queen Elizabeth II",
+                    "answerText_Hn": "Queen Elizabeth II",
+                    "isCorrectAns": true,
+                    "sortOrder": 2
+                },
+                {
+                    "id": 39,
+                    "answerText_En": "King Philip II",
+                    "answerText_Hn": "King Philip II",
+                    "isCorrectAns": false,
+                    "sortOrder": 3
+                },
+                {
+                    "id": 40,
+                    "answerText_En": "King Philip I",
+                    "answerText_Hn": "King Philip I",
+                    "isCorrectAns": false,
+                    "sortOrder": 4
+                }
+            ]
+        },
+        {
+            "totalRecords": 30,
+            "id": 11,
+            "ty": 1,
+            "en": "Who won the Academy Award for Best Picture in 2023?",
+            "hn": "Who won the Academy Award for Best Picture in 2023?",
+            "url": null,
+            "dur": 1500,
+            "cans": 41,
+            "ans": null,
+            "anslist": [
+                {
+                    "id": 41,
+                    "answerText_En": "Everything Everywhere All at Once",
+                    "answerText_Hn": "Everything Everywhere All at Once",
+                    "isCorrectAns": true,
+                    "sortOrder": 1
+                },
+                {
+                    "id": 42,
+                    "answerText_En": "Top Gun Maverick",
+                    "answerText_Hn": "Top Gun Maverick",
+                    "isCorrectAns": false,
+                    "sortOrder": 2
+                },
+                {
+                    "id": 43,
+                    "answerText_En": "Avataar Way of Water",
+                    "answerText_Hn": "Avataar Way of Water",
+                    "isCorrectAns": false,
+                    "sortOrder": 3
+                },
+                {
+                    "id": 44,
+                    "answerText_En": "The Fabelmans",
+                    "answerText_Hn": "The Fabelmans",
+                    "isCorrectAns": false,
+                    "sortOrder": 4
+                }
+            ]
+        }
+    ]

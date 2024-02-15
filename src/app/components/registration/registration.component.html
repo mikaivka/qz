@@ -1,0 +1,163 @@
+<!-- registration.component.html -->
+
+<div class="loader" *ngIf="loading">
+  <div class="ldrbx">
+    <div class="media"><img src="assets/images/r_logo.png" alt="" /></div>
+    <div class="ldrl">
+      <div class="spinner-border text-primary" role="status">
+        <span class="sr-only"></span>
+      </div>
+      Loading ...
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  
+  <div class="cstm_frm" *ngIf="!alreadyExists">
+    <div class="head">
+      <h2>Let’s Start</h2>
+    </div>
+    <div class="frm_bx">
+      <div class="frm_sgn">
+        <form
+          (ngSubmit)="handleRegistration()"
+          [formGroup]="registrationForm"
+          class="registration-form"
+        >
+          <div class="form-group">
+            <label for="name">Full Name:</label>
+            <input
+              type="text"
+              id="name"
+              formControlName="nm"
+              class="form-control"
+              placeholder="Enter Name"
+            />
+            <div
+              *ngIf="registrationForm.get('nm')?.invalid && cisubmitted"
+              class="error-message"
+            >
+              Name is required.
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="mobile">Mobile:</label>
+            <input
+              type="text"
+              id="mobile"
+              maxlength="10"
+              formControlName="mn"
+              class="form-control"
+              placeholder="Enter Mobile Number"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="zone">Zone</label>
+            <select
+              id="zoneDropdown"
+              class="form-control"
+              formControlName="zn"
+              (change)="onZoneChange()"
+            >
+              <option value="">Select</option>
+              <option *ngFor="let zone of ZoneList" [value]="zone.text">
+                {{ zone.text }}
+              </option>
+            </select>
+            <!-- <input type="text" id="zone" formControlName="zone" class="form-control"> -->
+            <div
+              *ngIf="registrationForm.get('zn')?.invalid && cisubmitted"
+              class="error-message"
+            >
+              Zone is required.
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="city">Office Location</label>
+            <select id="zoneDropdown" class="form-control" formControlName="ct">
+              <option value="">Select</option>
+              <option *ngFor="let cty of CityList" [value]="cty.text">
+                {{ cty.text }}
+              </option>
+            </select>
+            <!-- <input type="text" id="city" formControlName="city" class="form-control"> -->
+            <div
+              *ngIf="registrationForm.get('ct')?.invalid && cisubmitted"
+              class="error-message"
+            >
+            Office location is required.
+            </div>
+          </div>
+          <div class="btm_fxd form-button">
+            <button type="submit" class="btn btn-primary">Register</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <button
+    #hiddenButton
+    style="display: none"
+    data-bs-toggle="modal"
+    data-bs-target="#Verifymdl"
+  >
+    Hidden Button
+  </button>
+
+  <div *ngIf="alreadyExists">
+    <div class="susbx" style="background: url(../assets/images/payment_bg.png)">
+      <p><img src="assets/images/cng.png" alt="" /></p>
+      <h2>Congratulations</h2>
+      <h4>you have completed the quiz!</h4>
+    </div>
+  </div>
+</div>
+
+
+
+<div
+  class="modal fade"
+  id="Verifymdl"
+  tabindex="-1"
+  role="dialog"
+  aria-bs-labelledby="exampleModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog" style="min-width: 100%;" role="document">
+    <div class="modal-content" style="max-width: 350px;">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Rules of this Quiz</h5>
+        <!-- <button type="button" class="close" data-bs-dismiss="modal" aria-bs-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button> -->
+      </div>
+      <div class="modal-body">
+        <div class="vrymd">
+          <div class="infolist">
+            <ol>
+              <li>Total Number of questions: 10.</li>
+              <li>Has a time limit of: 4 Miniutes</li>
+              <li>
+                Must be finished in one sitting. You cannot save and finish
+                later.
+              </li>
+              <!-- <li>Will not let you finish with any questions unattempted.</li>               -->
+            </ol>
+          </div>
+          <div class="form-button">
+            <button
+              class="btn"
+              (click)="continueWithRules()"
+              data-bs-dismiss="modal"
+              aria-bs-label="Close"
+            >
+              Accept
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

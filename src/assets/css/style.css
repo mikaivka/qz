@@ -1,0 +1,204 @@
+
+*{ margin: 0px; padding: 0px; }
+body{ font-size: 14px; font-family: 'Poppins', sans-serif; color: #333;}
+
+.Poppins{font-family: 'Poppins', sans-serif;}
+.Syne{ font-family: 'Syne', sans-serif}
+
+
+.header{padding: 15px 0px;box-shadow: 0px 3px 6px #8585854d;margin-bottom: 20px;}
+.header .logo{display: flex;align-items: center;justify-content: center;}
+.header .logo .col{}
+.header .logo .col.l_r{/* text-align: right; */}
+.header .logo .col a{}
+.header .logo .col a img{}
+
+ 
+.cstm_frm{}
+.cstm_frm .head{ margin-bottom: 25px; }
+.cstm_frm .head h2{ font-size: 24px; display: inline-block; margin: 0px; position: relative;}
+.cstm_frm .head h2::after{
+    content: ''; bottom: -10px ;
+    background-image: linear-gradient(to bottom,#AD1B02,#C22303,#D1390D,#DB4E18,#E669A2); position: absolute; left: 0px; right: 0px; height: 3px;
+}
+
+.cstm_frm .frm_bx{}
+.cstm_frm .frm_bx .frm_sgn{}
+.cstm_frm .frm_bx .frm_sgn form{}
+.cstm_frm .frm_bx .frm_sgn .form-group{margin-bottom: 20px;}
+.cstm_frm .frm_bx .frm_sgn .form-group label{ font-size: 14px; color: #2D3748; font-weight: 500; margin-bottom: 5px; }
+.cstm_frm .frm_bx .frm_sgn .form-group .form-control{padding: 8px 14px;appearance: auto;}
+
+.btm_fxd{position: fixed;bottom: 0px;padding: 15px;left: 0px;right: 0px;border-top: 1px solid #e3e3e3;}
+.btm_fxd .btn{width: 100%;font-size: 16px;padding: 12px 20px;font-weight: 500;background: #D44715;color: #fff;border-color: #D44715;}
+
+.otpsection{ text-align: center; padding: 15px; }
+.otpsection .media{ margin-bottom: 35px; }
+.otpsection .media img{}
+.otpsection .head{}
+.otpsection .head h3{}
+.otpsection .head p{}
+.otpsection .head p + p{ margin-top: 30px; }
+.otpsection .head p span{}
+.otpsection .head p span a{}
+
+.otpsection .form-group{ display: flex; justify-content: center; margin: 30px 15px;}
+.otpsection .form-group .form-control{background: #EDEDED;border: none;padding: 0px 0px;height: 70px;text-align: center;font-size: 16px;font-weight: 500;}
+.otpsection .form-group .form-control + .form-control{ margin-left: 15px; }
+
+.otpsection .form-button{}
+.otpsection .form-button .btn{}
+
+.infosctn{}
+.infosctn .head{ margin-bottom: 25px; }
+.infosctn .head h3{}
+
+.infosctn .infolist{ }
+.infosctn .infolist ol{ margin: 0px 0px 0px 15px; padding: 0px; }
+.infosctn .infolist ol li{font-size: 16px;padding-left: 5px;}
+.infosctn .infolist ol li + li{margin-top: 12px;}
+
+.infosctn .form-button{}
+.infosctn .form-button .btn{}
+
+.quizsctn{
+    max-width: 1024px;
+    margin: auto;
+}
+.quizsctn .timerbx{
+    display: flex; align-items: center; justify-content: space-between; background: #FFECE9; padding: 7px 15px; border-radius: 5px; border: 1px solid #e7c8c3;    
+}
+.quizsctn .timerbx .tttl{}
+.quizsctn .timerbx .tttl h3{ margin: 0px; font-size: 18px; }
+.quizsctn .timerbx .tmbx{ display: flex; }
+.quizsctn .timerbx .tmbx .sell{background: #fff;padding: 10px 15px;border-radius: 5px;font-weight: 600;position: relative;}
+.quizsctn .timerbx .tmbx .sell:nth-child(1)::after{content: ':';position: absolute;right: -10px;font-size: 24px;top: 0px;}
+.quizsctn .timerbx .tmbx .sell + .sell{margin-left: 15px;}
+
+.quizsctn .quzbx {}
+.quizsctn .quzbx .quizstrt{}
+.quizsctn .quzbx .quizstrt a{}
+
+.quizsctn .quzbx .quz_qstn{
+    background: #edf7ff;
+    border-radius: 5px;
+    margin: 65px 0px 10px 0px;
+    position: relative;
+    padding: 40px 15px 15px 15px;
+    text-align: center;
+    box-shadow: 0px 3px 6px #f1f1f1;
+}
+.quizsctn .quzbx .quz_qstn .qz_no{
+    position: absolute; border: 3px solid #edf7ff; background: #fff; top: -38px; font-size: 26px; font-weight: 500; border-radius: 50%; padding: 5px 10px; margin: auto;
+    left: 0px; right: 0px; width: 70px; height: 70px; display: flex; align-items: center; justify-content: center;
+}
+.quizsctn .quzbx .quz_qstn .nmttl{ font-size: 18px; line-height: 24px; color: #434343; }
+.quizsctn .quzbx .quz_qstn .smltm{
+    width: 70px; background: #F9F9F9; border: 1px solid #ddd; border-radius: 5px; padding: 3px 0px; position: absolute; top: -45px; right: 0px;
+}
+.quizsctn .quzbx .timer{ text-align: right; font-weight: 500; }
+
+.quizsctn .quzbx .quz_ans{ padding: 10px 0px;}
+.quizsctn .quzbx .quz_ans .qzlst{ margin: 0px; padding: 0px; }
+.quizsctn .quzbx .quz_ans .qzlst li{
+    font-size: 16px;
+    list-style: none;
+    border: 1px solid #dbdbdb;
+    padding: 12px 15px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 500;
+}
+.quizsctn .quzbx .quz_ans .qzlst li:hover{ box-shadow: 0px 3px 6px #f1f1f1; }
+.quizsctn .quzbx .quz_ans .qzlst li + li{ margin-top: 15px; }
+
+.susbx{ padding: 30px 30px 40px 30px; text-align: center; background-size: cover !important; }
+.susbx p{ text-align: center; margin-bottom: 20px; }
+.susbx p img{ width: 100%; max-width: 225px; }
+.susbx h2{ margin-bottom: 20px; }
+.susbx h4{ font-size: 18px; font-weight: normal; }
+
+.loader{
+    position: fixed;
+    background: #f3be26;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loader .ldrbx{
+    /* background: #fff; */
+    border-radius: 5px;
+    padding: 15px;
+}
+.loader .ldrbx .media{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.loader .ldrbx .media img{}
+.loader .ldrbx .ldrl{
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+.loader .ldrbx .ldrl .spinner-border{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    border-color: #000;
+    border-right-color: transparent;
+}
+.loader .ldrbx .ldrl .spinner-border .sr-only{}
+
+
+#Verifymdl{}
+#Verifymdl .modal-dialog{
+    margin: 0px;
+    border-radius: 0px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 10px;
+}
+#Verifymdl .modal-dialog::after{content: '';background: #00000073;position: absolute;top: 0px;bottom: 0px;left: 0px;right: 0px;z-index: -1;}
+#Verifymdl .modal-dialog .modal-content{
+    border-radius: 5px;
+}
+#Verifymdl .modal-dialog .modal-content .modal-header{}
+#Verifymdl .modal-dialog .modal-content .modal-header h5{}
+#Verifymdl .modal-dialog .modal-content .modal-header .close{
+    background: #000;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: none;
+    color: #fff;
+    font-size: 26px;
+}
+#Verifymdl .modal-dialog .modal-content .modal-body{
+    padding: 25px;
+}
+#Verifymdl .modal-dialog .modal-content .modal-body .vrymd{}
+#Verifymdl .modal-dialog .modal-content .modal-body .vrymd .infolist{margin: 0px 0px 30px 0px;}
+#Verifymdl .modal-dialog .modal-content .modal-body .vrymd .infolist ol{
+    margin: 0px;
+    padding: 15px 10px 15px 30px;
+    background: #FFFDF2;
+    border-left: 4px solid #FFC700;
+}
+#Verifymdl .modal-dialog .modal-content .modal-body .vrymd .infolist ol li{font-size: 16px;padding-left: 5px;}
+#Verifymdl .modal-dialog .modal-content .modal-body .vrymd .infolist ol li + li{margin-top: 12px;}
+#Verifymdl .modal-dialog .modal-content .modal-body .vrymd .infolist ol li.active{}
+#Verifymdl .modal-dialog .modal-content .modal-body .vrymd .form-button{
+    display: flex;
+    align-items: center;
+} 
+#Verifymdl .modal-dialog .modal-content .modal-body .vrymd .form-button .btn{border: 1px solid #D44715;color: #D44715;padding: 10px 18px;width: 100%;}
+#Verifymdl .modal-dialog .modal-content .modal-body .vrymd .form-button .btn + .btn{background: #D44715;color: #fff;margin-left: 15px;}
+.active_options{background: bisque;}
